@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Getting Started"
-author: "Paul Le"
+title: "QMAI Team"
+author: "Eliska Greplova"
 categories: documentation
 tags: [documentation,sample]
-image: city-1.jpg
+image: QMAI-team.jpg
 ---
 
 # Millennial
