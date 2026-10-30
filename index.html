@@ -1,4 +1,140 @@
----
-layout: home
-title: Home
----
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eliška Greplová</title>
+  <meta name="description" content="Eliška Greplová — physicist working at the intersection of quantum technology and artificial intelligence.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <a class="logo" href="#top">E.G.</a>
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- Intro: big name, quieter second line -->
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="label">Physicist — Quantum × AI</p>
+        <h1>Eliška Greplová.</h1>
+        <p class="hero-sub">I build intelligent machines to make quantum hardware more&nbsp;powerful.</p>
+      </div>
+      <img class="portrait" src="photo.jpg" alt="Portrait of Eliška Greplová" width="330" height="330">
+    </section>
+
+    <!-- Selected work -->
+    <section id="work" class="row">
+      <p class="label">Selected work</p>
+      <div>
+        <ul class="work">
+          <li>
+            <a href="https://www.nature.com/articles/s41586-026-10766-3">
+              <span class="year">2026</span>
+              <span class="title">Weight-four parity checks in a spin-shuttling architecture</span>
+              <span class="venue">Nature 655, 1160 · B. Undseth, N. Meggiato, Y.-H. Wu et al.</span>
+              <span class="lab">With the Vandersypen lab</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://journals.aps.org/prxintelligence/abstract/10.1103/ryll-qb42">
+              <span class="year">2026</span>
+              <span class="title">Cross-Platform Autonomous Control of Minimal Kitaev Chains</span>
+              <span class="venue">PRX Intelligence 1, 013005 · D. van Driel, R. Koch, V. P. M. Sietses et al.</span>
+              <span class="lab">With the Kouwenhoven, Goswami, Wimmer and Lado labs</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.cambridge.org/nl/universitypress/subjects/physics/quantum-physics-quantum-information-and-quantum-computation/machine-learning-quantum-sciences?format=HB&isbn=9781009504935">
+              <span class="year">2025</span>
+              <span class="title">Machine Learning in Quantum Sciences</span>
+              <span class="venue">Book · Cambridge University Press</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://gitlab.tudelft.nl/datasets/delft-csd-dataset/-/blob/main/README.md">
+              <span class="year">2025</span>
+              <span class="title">Delft Charge Stability Dataset</span>
+              <span class="venue">Open dataset · ~10k diagrams</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.13.054019">
+              <span class="year">2020</span>
+              <span class="title">Automated tuning of double quantum dots into specific charge states using neural networks</span>
+              <span class="venue">Physical Review Applied 13, 054019 · R. Durrer, B. Kratochwil, J. V. Koski et al.</span>
+              <span class="lab">With the Ensslin and Ihn labs</span>
+            </a>
+          </li>
+        </ul>
+        <a class="more" href="https://scholar.google.com/citations?user=WIPqU4gAAAAJ&amp;hl=en">All publications →</a>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="row">
+      <p class="label">About</p>
+      <div>
+        <!-- Career, newest first. Copy an <li> to add a line. -->
+        <ul class="cv">
+          <li>
+            <span class="role">Assoc. Prof.</span>
+            <span class="place">TU Delft · Kavli Institute of Nanoscience &amp; QuTech</span>
+            <span class="with">Head of the QMAI Lab</span>
+          </li>
+          <li>
+            <span class="role">Visiting</span>
+            <span class="place">Microsoft Research AI4Science, Amsterdam</span>
+          </li>
+          <li>
+            <span class="role">Postdoc</span>
+            <span class="place">ETH Zurich</span>
+            <span class="with">With Sebastian Huber</span>
+          </li>
+          <li>
+            <span class="role">PhD</span>
+            <span class="place">Aarhus University</span>
+            <span class="with">With Klaus Mølmer</span>
+          </li>
+          <li>
+            <span class="role">MSc</span>
+            <span class="place">Max Planck Institute of Quantum Optics, Munich</span>
+            <span class="with">With Ignacio Cirac</span>
+          </li>
+          <li>
+            <span class="role">BSc</span>
+            <span class="place">Czech Technical University in Prague</span>
+            <span class="with">With Igor Jex</span>
+          </li>
+        </ul>
+        <p class="muted">Outside of science I <a class="inline-link" href="reading.html">read</a>, lift and play ice-hockey.</p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="row">
+      <p class="label">Contact</p>
+      <div>
+        <ul class="social">
+          <li><a href="https://www.linkedin.com/in/eliska-greplova-29bba9150/">LinkedIn</a></li>
+          <li><a href="https://bsky.app/profile/eliskagreplova.bsky.social">Bluesky</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>© <span id="year">2026</span> Eliška Greplová</footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
